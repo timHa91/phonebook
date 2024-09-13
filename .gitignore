@@ -1,0 +1,10 @@
+# Ignoriere alle .log Dateien
+*.log
+
+# Ignoriere das node_modules Verzeichnis
+node_modules/
+
+# Ignoriere alle .tmp Dateien
+*.tmp
+
+.env
