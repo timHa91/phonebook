@@ -1,0 +1,36 @@
+GET http://localhost:3001/api/persons/1
+###
+DELETE http://localhost:3001/api/persons/1
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Tim Hartmann",
+  "number": "123-123-123"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "123-123-123"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Tim Hartmann"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Tim Hartmann",
+  "number": "123-123-123"
+}
